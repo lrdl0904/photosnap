@@ -1,0 +1,744 @@
+@media screen and (max-width: 1440px) {
+  /* HOME */
+  br {
+    display: block;
+  }
+
+  .container {
+    max-width: 768px;
+    justify-content: center;
+  }
+  .header__container {
+    padding: 0 40px;
+  }
+  .desktop__home__banner {
+    display: none;
+  }
+  .tablet__home__banner {
+    display: block;
+  }
+  .banner__one__left {
+    padding: 173px 54px;
+  }
+  .banner__two__right {
+    padding: 136px 54px;
+  }
+  .banner__three__left {
+    padding: 160px 54px;
+  }
+  .stories {
+    flex-wrap: wrap;
+    height: 1000px;
+  }
+  .stories__hover {
+    width: 384px;
+  }
+  .stories__one {
+    background-size: cover;
+    background-position: center;
+  }
+  .stories__two {
+    background-size: cover;
+    background-position: center;
+  }
+  .stories__three {
+    background-size: cover;
+    background-position: center;
+  }
+  .stories__four {
+    background-size: cover;
+    background-position: center;
+  }
+  .features {
+    flex-direction: column;
+    padding: 80px 155px;
+    align-items: center;
+  }
+  .features__container {
+    margin: 40px 0;
+  }
+
+  footer {
+    height: 284px;
+    width: 768px;
+    padding: 64px 40px;
+  }
+  .footer__left ul {
+    bottom: 64px;
+    left: 39px;
+  }
+  .footer__middle ul {
+    display: flex;
+  }
+  .footer__middle ul li {
+    margin-right: 26px;
+  }
+  .footer__middle {
+    margin: 0;
+    position: absolute;
+    top: 112px;
+  }
+
+  /* S T O R I E S */
+
+  .stories__banner {
+    background-image: url("assets/stories/tablet/moon-of-appalacia.jpg");
+  }
+
+  .banner__container {
+    position: absolute;
+    width: 387px;
+    height: auto;
+    color: white;
+    left: 39px;
+    top: 112px;
+  }
+  .stories__main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* F E A T U R E S */
+
+  .features__banner__left {
+    padding-left: 54px;
+  }
+
+  #features__page {
+    flex-direction: row;
+    padding: 80px 39px;
+    column-gap: 12px;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .features__page__container {
+    width: 338px;
+  }
+
+  .beta {
+    background-image: url(/assets/shared/tablet/bg-beta.jpg);
+    padding: 68px 40px;
+  }
+
+  /* P R I C I N G */
+
+  .pricing {
+    height: 1930px;
+  }
+
+  .pricing__tabs {
+    flex-direction: column;
+  }
+
+  .tabs {
+    width: 689px;
+    height: 270px;
+    text-align: left;
+    position: relative;
+    padding: 40px;
+  }
+
+  .tabs__subtitle {
+    width: 270px;
+  }
+
+  .tabs__amount {
+    position: absolute;
+    right: 48px;
+    top: 42px;
+  }
+  .per__month__or__year {
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 100px;
+    right: 56px;
+  }
+  .tabs__plan {
+    margin-top: -7px;
+  }
+
+  .pricing__tabs div:nth-child(2) {
+    width: 689px;
+    height: 270px;
+    margin: 24px 0;
+    border-top: 0;
+    border-left: 6px solid transparent;
+    border-image: linear-gradient(to bottom, #ffc593, #bc7198, #5a77ff);
+    border-image-slice: 1;
+  }
+  #special__tabs__plan {
+    margin-top: -7px;
+  }
+  #compare {
+    margin-top: -50px;
+  }
+
+  td:first-child {
+    width: 270px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 375px;
+    position: relative;
+  }
+  .header__main-menu {
+    display: none;
+  }
+  .header__button {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+  .burger {
+    width: 20px;
+    height: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .burger-line {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    transition: 0.4s;
+  }
+  .header__container {
+    padding: 0 24px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu {
+    position: absolute;
+    top: 72px;
+    left: 0;
+    width: 375px;
+    padding-top: 32px;
+    background-color: white;
+    z-index: 1;
+    text-align: center;
+  }
+
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .menu li {
+    margin-bottom: 20px;
+  }
+
+  .menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    transition: filter 0.1s ease 0.1s;
+    letter-spacing: 2px;
+    font-weight: 600;
+  }
+  .menu hr {
+    height: 1px;
+    opacity: 0.5;
+    width: 310px;
+    color: #979797;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .menu__button {
+    margin-top: 32px;
+    margin-bottom: 44px;
+  }
+  .menu__button a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+    background-color: #000000;
+    padding: 14px 68px;
+    font-weight: 600;
+  }
+
+  .tablet__home__banner {
+    display: none;
+  }
+
+  .mobile__home__banner {
+    display: block;
+  }
+
+  .banner__one {
+    height: auto;
+    flex-direction: column-reverse;
+  }
+
+  .banner__one__left {
+    padding: 72px 24px 72px 33px;
+  }
+
+  .gradient-box {
+    background: linear-gradient(to right, #ffc593, #bc7198, #5a77ff);
+    width: 128px;
+    height: 6px;
+    position: absolute;
+    left: 33px;
+    top: 0;
+  }
+
+  .banner__title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .banner__description {
+    font-size: 15px;
+  }
+
+  .banner__two {
+    height: auto;
+    flex-direction: column;
+  }
+  .banner__two__right {
+    padding: 72px 24px 72px 33px;
+  }
+  .banner__three {
+    height: auto;
+    flex-direction: column-reverse;
+  }
+  .banner__three__left {
+    padding: 92px 24px 92px 33px;
+  }
+
+  .stories__hover {
+    width: 375px;
+    height: 375px;
+  }
+
+  .stories__one {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 1)
+      ),
+      url("assets/stories/mobile/mountains.jpg");
+  }
+
+  .stories__two {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 1)
+      ),
+      url("assets/stories/mobile/cityscapes.jpg");
+  }
+
+  .stories__three {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 1)
+      ),
+      url("assets/stories/mobile/18-days-voyage.jpg");
+  }
+
+  .stories__four {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 1)
+      ),
+      url("assets/stories/mobile/architecturals.jpg");
+  }
+
+  .stories__hover:hover {
+    margin-top: 0;
+    cursor: pointer;
+  }
+
+  .stories {
+    height: auto;
+  }
+
+  .features {
+    padding: 52px 32px;
+  }
+
+  .features__container {
+    width: auto;
+    margin: 28px 0;
+  }
+
+  footer {
+    height: 539px;
+    flex-direction: column;
+    text-align: center;
+    width: 375px;
+    justify-content: center;
+  }
+
+  .footer__left ul {
+    bottom: 64px;
+    left: 39px;
+    position: static;
+    justify-content: center;
+    margin-top: 32px;
+  }
+
+  .footer__left ul li {
+    margin-right: 13px;
+  }
+
+  .footer__left ul li:last-child {
+    margin-right: 0;
+  }
+
+  .footer__middle {
+    position: static;
+  }
+
+  .footer__middle ul {
+    flex-direction: column;
+    margin-top: 49px;
+    margin-bottom: 104px;
+  }
+
+  .footer__middle ul li {
+    margin-right: 0;
+  }
+
+  .footer__right {
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__right img {
+    position: absolute;
+    right: 70px;
+    top: 1px;
+  }
+  .copyright {
+    position: static;
+    font-size: 15px;
+    font-weight: 200;
+  }
+  .footer__invite {
+    margin-right: 64px;
+    margin-bottom: 34px;
+  }
+
+  .stories__banner {
+    background-image: url(/assets/stories/mobile/moon-of-appalacia.jpg);
+    background-repeat: no-repeat;
+    height: 812px;
+    background-color: #000000;
+  }
+
+  .banner__container {
+    width: 310px;
+    top: 361px;
+    left: 29px;
+  }
+
+  .banner__above {
+    margin-bottom: 16px;
+  }
+
+  br {
+    display: none;
+  }
+
+  .banner__invite {
+    margin-top: 24px;
+  }
+
+  .stories__main {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .stories__main__one {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 1)
+      ),
+      url("assets/stories/mobile/mountains.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .stories__main__two {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 1)
+      ),
+      url("assets/stories/mobile/cityscapes.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .stories__main__three {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 1)
+      ),
+      url("assets/stories/mobile/18-days-voyage.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .stories__main__four {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 1)
+      ),
+      url("assets/stories/mobile/architecturals.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .stories__main__five {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 1)
+      ),
+      url("assets/stories/mobile/world-tour.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .stories__main__six {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 1)
+      ),
+      url("assets/stories/mobile/unforeseen-corners.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .stories__main__seven {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 1)
+      ),
+      url("assets/stories/mobile/king-on-africa.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .stories__main__eight {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 1)
+      ),
+      url("assets/stories/mobile/trip-to-nowhere.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .stories__main__nine {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 1)
+      ),
+      url("assets/stories/mobile/rage-of-the-sea.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .stories__main__ten {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 1)
+      ),
+      url("assets/stories/mobile/running-free.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .stories__main__eleven {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 1)
+      ),
+      url("assets/stories/mobile/behind-the-waves.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .stories__main__twelve {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 1)
+      ),
+      url("assets/stories/mobile/calm-waters.jpg");
+  }
+
+  .stories__main__thirteen {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 1)
+      ),
+      url("assets/stories/mobile/milky-way.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .stories__main__fourteen {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 1)
+      ),
+      url("assets/stories/mobile/dark-forest.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .stories__main__fifteen {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 1)
+      ),
+      url("assets/stories/mobile/somwarpet.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .stories__main__sixteen {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 1)
+      ),
+      url("assets/stories/mobile/land-of-dreams.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* F E S T U R E S */
+
+  .features__banner {
+    flex-direction: column-reverse;
+    height: 598px;
+    background-color: black;
+  }
+
+  .mobile__home__banner {
+    display: block;
+  }
+
+  .features__banner__left {
+    padding-left: 29px;
+    width: 318px;
+    padding-top: 68px;
+    padding-bottom: 72px;
+  }
+
+  .features__gradient-box {
+    background: linear-gradient(to right, #ffc593, #bc7198, #5a77ff);
+    width: 128px;
+    height: 6px;
+    position: absolute;
+    left: 29px;
+    top: 0;
+  }
+
+  .beta {
+    background-image: url(/assets/shared/mobile/bg-beta.jpg);
+    padding: 64px 32px 64px 33px;
+    flex-direction: column;
+    align-items: normal;
+  }
+
+  .banner__title {
+    letter-spacing: 3.33px;
+  }
+
+  .beta__gradient-box {
+    width: 128px;
+    height: 6px;
+    top: 0;
+    left: 33px;
+  }
+
+  .features__banner__left {
+    width: 100%;
+    padding: 72px 37px 72px 29px;
+  }
+
+  .tabs {
+    width: 318px;
+    height: 407px;
+    text-align: center;
+    position: relative;
+    padding: 40px;
+  }
+
+  .tabs__amount {
+    position: initial;
+  }
+
+  .tabs p {
+    position: initial;
+  }
+
+  .tabs__plan {
+    margin-top: 40px;
+  }
+
+  .pricing {
+    height: 2485px;
+  }
+
+  .pricing__tabs div:nth-child(2) {
+    width: 318px;
+    height: 407px;
+    text-align: center;
+    border-top: 6px solid transparent;
+    border-left: 0;
+    border-image: linear-gradient(to left, #ffc593, #bc7198, #5a77ff);
+    border-image-slice: 1;
+  }
+
+  .per__month__or__year {
+    text-align: center;
+  }
+
+  #special__tabs__plan {
+    margin-top: 40px;
+  }
+
+  .blur {
+    filter: brightness(0.5);
+  }
+
+  .no-scroll {
+    overflow-y: hidden;
+  }
+
+  .cross__line__one {
+    transform: rotate(-45deg) translateX(-3px) translateY(-2px);
+  }
+
+  .cross__line__two {
+    transform: rotate(45deg) translateX(-6px);
+  }
+}

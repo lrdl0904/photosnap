@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PhotoSnap</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- <div id="app"></div> -->
+      <header>
+        <div class="header__container">
+          <div class="header__main-logo">
+            <a href="index.html">
+              <img src="assets/shared/desktop/logo.svg" alt="main-logo" />
+            </a>
+          </div>
+          <div class="header__main-menu">
+            <nav>
+              <ul>
+                <li><a href="stories.html">STORIES</a></li>
+                <li><a href="features.html">FEATURES</a></li>
+                <li><a href="pricing.html">PRICING</a></li>
+              </ul>
+            </nav>
+          <!-- for burger menu -->
+          </div>
+          <div class="header__button"><a href="">GET AN INVITE</a></div>
+          <div class="burger hidden">
+            <div class="burger-line burger-line__one "></div>
+            <div class="burger-line burger-line__two"></div>
+         </div>
+        <div class="menu hidden" id="menu">
+          <ul>
+            <li><a href="stories.html">STORIES</a></li>
+            <li><a href="features.html">FEATURES</a></li>
+            <li><a href="pricing.html">PRICING</a></li>
+          </ul>
+          <hr>
+          <div class="menu__button"><a href="">GET AN INVITE</a></div>
+        </div>
+        <!-- burger menu ends here -->
+        </div>
+      </header>
+      <main>
+        <div class="main__container">
+          <section class="multiple-banner">
+            <div class="banner__one">
+              <div class="banner__one__left">
+                <div class="gradient-box"></div>
+                <h2 class="banner__title">
+                  Create and share your photo Stories.
+                </h2>
+                <p class="banner__description">
+                  Photosnap is a platform for photographers and visual
+                  storytellers. We make it easy to share photos, tell stories
+                  and connect with others.
+                </p>
+                <div class="banner__invite">
+                  <a>get an invite</a>
+                  <img src="assets/shared/desktop/arrow.svg" alt="arrow" />
+                </div>
+              </div>
+              <div class="banner__one__right">
+                <img
+                  src="assets/home/desktop/create-and-share.jpg"
+                  alt="banner-one"
+                  class="desktop__home__banner"
+                />
+                <img
+                  src="assets/home/tablet/create-and-share.jpg"
+                  alt="banner-one"
+                  class="tablet__home__banner hidden"
+                />
+                <img
+                  src="assets/home/mobile/create-and-share.jpg"
+                  alt="banner-one"
+                  class="mobile__home__banner hidden"
+                />
+              </div>
+            </div>
+            <div class="banner__two">
+              <div class="banner__two__left">
+                <img
+                  src="assets/home/desktop/beautiful-stories.jpg"
+                  alt="banner-two"
+                  class="desktop__home__banner"
+                />
+                <img
+                  src="assets/home/tablet/beautiful-stories.jpg"
+                  alt="banner-two"
+                  class="tablet__home__banner hidden"
+                />
+                <img
+                  src="assets/home/mobile/beautiful-stories.jpg"
+                  alt="banner-two"
+                  class="mobile__home__banner hidden"
+                />
+              </div>
+              <div class="banner__two__right">
+                <h2 class="banner__title">
+                  Beautiful<br />
+                  stories<br />
+                  every time
+                </h2>
+                <p class="banner__description">
+                  We provide design templates to ensure your stories look
+                  terrific. Easily add photos, text, embed maps and media from
+                  other networks. Then share your story with everyone.
+                </p>
+                <div class="banner__invite">
+                  <a>view the stories</a>
+                  <img src="assets/shared/desktop/arrow.svg" alt="arrow" />
+                </div>
+              </div>
+            </div>
+            <div class="banner__three">
+              <div class="banner__three__left">
+                <h2 class="banner__title">Designed for everyone</h2>
+                <p class="banner__description">
+                  Photosnap can help you create stories that resonate with your
+                  audience. Our tool is designed for photographers of all
+                  levels, brands, businesses you name it.
+                </p>
+                <div class="banner__invite">
+                  <a>view the stories</a>
+                  <img src="assets/shared/desktop/arrow.svg" alt="arrow" />
+                </div>
+              </div>
+              <div class="banner__three__right">
+                <img
+                  src="assets/home/desktop/designed-for-everyone.jpg"
+                  alt="banner-three"
+                  class="desktop__home__banner"
+                />
+                <img
+                  src="assets/home/tablet/designed-for-everyone.jpg"
+                  alt="banner-three"
+                  class="tablet__home__banner hidden"
+                />
+                <img
+                  src="assets/home/mobile/designed-for-everyone.jpg"
+                  alt="banner-three"
+                  class="mobile__home__banner hidden"
+                />
+              </div>
+            </div>
+          </section>
+          <section class="stories">
+            <div class="stories__one stories__hover">
+              <div class="stories__container">
+                <div class="stories__title">The Mountains</div>
+                <div class="stories__subtitle">by John Appleseed</div>
+                <hr />
+                <div class="stories__story">read story</div>
+                <img src="assets/shared/desktop/arrow.svg" alt="arrow" />
+              </div>
+              <div class="hovered__color"></div>
+            </div>
+            <div class="stories__two stories__hover">
+              <div class="stories__container">
+                <div class="stories__title">Sunset Cityscapes</div>
+                <div class="stories__subtitle">by Benjamin Cruz</div>
+                <hr />
+                <div class="stories__story">read story</div>
+                <img src="assets/shared/desktop/arrow.svg" alt="arrow" />
+              </div>
+            </div>
+            <div class="stories__three stories__hover">
+              <div class="stories__container">
+                <div class="stories__title">18 Days Voyage</div>
+                <div class="stories__subtitle">by Alexei Borodin</div>
+                <hr />
+                <div class="stories__story">read story</div>
+                <img src="assets/shared/desktop/arrow.svg" alt="arrow" />
+              </div>
+            </div>
+            <div class="stories__four stories__hover">
+              <div class="stories__container">
+                <div class="stories__title">Architecturals</div>
+                <div class="stories__subtitle">by Samantha Brooke</div>
+                <hr />
+                <div class="stories__story">read story</div>
+                <img src="assets/shared/desktop/arrow.svg" alt="arrow" />
+              </div>
+            </div>
+          </section>
+          <section class="features">
+            <div class="features__container">
+              <img
+                src="assets/features/desktop/responsive.svg"
+                alt="responsive"
+              />
+              <p class="features__title">100% Responsive</p>
+              <p class="features__subtitle">
+                No matter which the device you’re on, our site is fully
+                responsive and stories look beautiful on any screen.
+              </p>
+            </div>
+            <div class="features__container features__second__container">
+              <img
+                src="assets/features/desktop/no-limit.svg"
+                alt="responsive"
+              />
+              <p class="features__title">No Photo Upload Limit</p>
+              <p class="features__subtitle">
+                Our tool has no limits on uploads or bandwidth. Freely upload in
+                bulk and share all of your stories in one go.
+              </p>
+            </div>
+            <div class="features__container">
+              <img src="assets/features/desktop/embed.svg" alt="responsive" />
+              <p class="features__title">Available to Embed</p>
+              <p class="features__subtitle">
+                Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube
+                videos, Google Maps, and more.
+              </p>
+            </div>
+          </section>
+        </div>
+      </main>
+      <footer>
+        <section class="footer__left">
+          <a href="index.html">
+            <img src="assets/shared/desktop/logo-white.png" alt="main-logo" />
+          </a>
+          <ul>
+            <li>
+              <img src="assets/shared/desktop/facebook.svg" alt="facebook" />
+            </li>
+            <li>
+              <img src="assets/shared/desktop/youtube.svg" alt="youtube" />
+            </li>
+            <li>
+              <img src="assets/shared/desktop/twitter.svg" alt="twitter" />
+            </li>
+            <li>
+              <img src="assets/shared/desktop/pinterest.svg" alt="pinterest" />
+            </li>
+            <li>
+              <img src="assets/shared/desktop/instagram.svg" alt="instagram" />
+            </li>
+          </ul>
+        </section>
+        <section class="footer__middle">
+          <ul>
+            <li><a href="index.html">Home</li></a>
+            <li><a href="stories.html">Stories</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+          </ul>
+        </section>
+        <section class="footer__right">
+          <p class="footer__invite">get an invite</p>
+          <img
+            src="assets/shared/desktop/arrow.svg"
+            alt="arrow"
+            class="footer__arrow"
+          />
+          <p class="copyright">Copyright 2019. All Rights Reserved</p>
+        </section>
+      </footer>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

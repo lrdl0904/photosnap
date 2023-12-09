@@ -1,0 +1,229 @@
+.pricing {
+  height: 1646px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricing p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.pricing_toggle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 64px;
+  height: 32px;
+  margin: 0 32px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #dfdfdf;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: black;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: black;
+}
+
+input:checked + .slider:before {
+  background-color: white;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px black;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+#toggle__yearly {
+  opacity: 0.5;
+}
+
+.pricing__tabs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tabs {
+  width: 350px;
+  height: 407px;
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 56px 40px 40px 40px;
+}
+
+.tabs__plan {
+  text-transform: uppercase;
+  width: 240px;
+  height: 40px;
+  font-weight: 600;
+  font-size: 12px;
+  color: white;
+  background-color: black;
+  border: 0;
+  letter-spacing: 2px;
+  margin-top: 40px;
+}
+
+.tabs__plan:hover {
+  background-color: #dfdfdf;
+  color: black;
+  cursor: pointer;
+}
+
+.tabs__title {
+  font-size: 24px;
+}
+
+.tabs p {
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.tabs__amount {
+  font-size: 40px;
+  letter-spacing: 4.17px;
+  text-transform: uppercase;
+}
+
+.tabs__subtitle {
+  line-height: 22px;
+  margin-top: 18px;
+  margin-bottom: 37px;
+}
+
+.pricing__tabs div:nth-child(2) {
+  color: white;
+  background-color: black;
+  height: 464px;
+  width: 350px;
+  margin: 0 30px;
+  border-top: 6px solid transparent;
+  border-image: linear-gradient(to right, #ffc593, #bc7198, #5a77ff);
+  border-image-slice: 1;
+}
+
+#special__tabs__plan {
+  background-color: white;
+  color: black;
+  margin-top: 68px;
+}
+#special__tabs__plan:hover {
+  background-color: #dfdfdf;
+  color: black;
+  cursor: pointer;
+}
+
+.pricing__table {
+  text-transform: uppercase;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  border: 0;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 22px 0;
+}
+
+tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Style only the cells in the first column */
+td:first-child {
+  width: 311px;
+  padding-left: 24px;
+}
+
+td:nth-child(2) {
+  width: 140px;
+  text-align: center;
+}
+
+td:nth-child(3) {
+  width: 140px;
+  text-align: center;
+}
+
+td:nth-child(4) {
+  width: 140px;
+  text-align: center;
+}
+
+.pricing__table tr:first-child {
+  border-bottom: 1px solid black;
+}
+
+.pricing__compare {
+  margin-top: 160px;
+  margin-bottom: 45px;
+}
+
+#compare {
+  margin-top: 100px;
+}
