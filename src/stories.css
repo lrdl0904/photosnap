@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap");
+
+.stories__banner {
+  background-image: url("../assets/stories/desktop/moon-of-appalacia.jpg");
+  height: 650px;
+  position: relative;
+}
+
+.banner__container {
+  position: absolute;
+  width: 387px;
+  height: auto;
+  color: white;
+  left: 112px;
+  top: 122px;
+}
+
+.banner__above {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 24px;
+}
+
+.banner__subtitle {
+  font-size: 13px;
+  font-weight: 200;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.banner__subtitle span {
+  font-weight: 400;
+}
+
+.banner__descprition {
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 200;
+}
+
+.banner__invite img {
+  filter: brightness(0) invert(1);
+}
+
+.stories__main {
+  display: grid;
+  grid-template-columns: repeat(
+    4,
+    1fr
+  ); /* Adjust the number of columns as needed */
+  gap: 0; /* Adjust the gap between items */
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.stories__above {
+  font-size: 13px;
+}
+
+.stories__main__one {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1)),
+    url("../assets/stories/desktop/mountains.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.stories__main__two {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1)),
+    url("../assets/stories/desktop/cityscapes.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.stories__main__three {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1)),
+    url("../assets/stories/desktop/18-days-voyage.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.stories__main__four {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1)),
+    url("../assets/stories/desktop/architecturals.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.stories__main__five {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1)),
+    url("../assets/stories/desktop/world-tour.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.stories__main__six {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1)),
+    url("../assets/stories/desktop/unforeseen-corners.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.stories__main__seven {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1)),
+    url("../assets/stories/desktop/king-on-africa.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.stories__main__eight {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1)),
+    url("../assets/stories/desktop/trip-to-nowhere.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.stories__main__nine {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1)),
+    url("../assets/stories/desktop/rage-of-the-sea.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.stories__main__ten {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1)),
+    url("../assets/stories/desktop/running-free.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.stories__main__eleven {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1)),
+    url("../assets/stories/desktop/behind-the-waves.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.stories__main__twelve {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1)),
+    url("../assets/stories/desktop/calm-waters.jpg");
+}
+
+.stories__main__thirteen {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1)),
+    url("../assets/stories/desktop/milky-way.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.stories__main__fourteen {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1)),
+    url("../assets/stories/desktop/dark-forest.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.stories__main__fifteen {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1)),
+    url("../assets/stories/desktop/somwarpet.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.stories__main__sixteen {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1)),
+    url("../assets/stories/desktop/land-of-dreams.jpg");
+  background-size: cover;
+  background-position: center;
+}
